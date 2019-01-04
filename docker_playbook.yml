@@ -1,0 +1,7 @@
+---
+ - name: docker host cleanup
+   hosts: all
+   become: true
+   tasks:
+   - name: docker host unused image clean up
+     command: docker system prune -a -f
