@@ -1,2 +1,2 @@
 [srs]
-192.168.56.101
+192.168.56.101 ansible_user=root ansible_password=redhat
